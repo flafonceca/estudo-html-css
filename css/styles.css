@@ -1,0 +1,44 @@
+p {
+    color: green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body {
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+TIPOS DE SELETOR BÁSICO
+Hierarquia:
+ 1) Tag Style
+ 2) Por id (#) => estilização unica
+ 3) Por class (.) => estilização p/ varios
+ 4) Por elemento
+*/
+
+h1, h2, h3 {
+    color: white;
+}
+
+#meu-id {
+    font-weight: 100;
+}
+
+.cabecalho {
+    color: crimson;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.quadrado {
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border-radius: 16px;
+}
+.banner {
+    width: 100%;
+    border-radius: 16px;
+}
