@@ -1,0 +1,113 @@
+h1 {
+    background-color: rgb(174, 216, 241);
+    border-radius: 4px;
+    padding: 5px;
+    margin: 5px
+}
+
+.formacao {
+    background-color:  rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.curso {
+    background-color:  rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.custo {
+    background-color: rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.prazo {
+    background-color:  rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+.inicio {
+    background-color: rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+.duracao {
+    background-color: rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.horario {
+    background-color:  rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.formato {
+    background-color: rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.idioma {
+    background-color:  rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.desenvolvedor {
+    background-color: rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.martech {
+    background-color:  rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.engenharia {
+    background-color: rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.sales {
+    background-color: rgb(181, 205, 235);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+.service {
+    background-color: rgb(151, 173, 213);
+    width: 400px;
+    padding: 20px;
+    border:1px solid rgb(0, 0, 0);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    background-repeat: no-repeat;
+/*background-size: contain - estica;*/
+    background-position: right bottom;
+/*height: 100vh; -- para imagem sair do body*/
+    background-attachment: fixed;
+}  

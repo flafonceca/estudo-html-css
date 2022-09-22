@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/exercicio-form.css"/>
 </head>
 <body>
     <td><img src="img/exercicio-form/soullogo.png" width="300"/></td><br/>
 
-    <h1>Bem-vindo! Entre com seu e-mail e senha.</h1>
+    <h1 style ="color:rgb(16, 3, 36);"> Bem-vindo! Entre com seu e-mail e senha.</h1>
       <div>
             <label for="campoEmail">Email</label><br/>
             <input id="campoEmail" name="campoEmail"
@@ -32,22 +33,31 @@
 <br/>
 <body>
     <header>
-    <h1>Formações - SoulCode</h1>
-        <table border="1" cellpadding="10" style="border-collapse: collapse;">
+    <h1 style ="color:rgb(16, 3, 36);">Formações - SoulCode</h1>
+    <div class="formacao">
+        <table border="3" cellpadding="7" style="border-collapse: collapse;">
             <thread>
             <tr> 
-            <th>Curso</th>
-            <th>Custo</th> 
-            <th>Prazo de inscrição</th>
-            <th>Início</th>
-            <th>Duração</th>
-            <th>Horário de aula</th>
-            <th>Formato de aula</th>
-            <th>Idioma</th>
+            <div>
+            <th class="curso">Curso</th></div>
+            <div>
+            <th class="custo">Custo</th></div>
+            <div>
+            <th class="prazo">Prazo de inscrição</th></div>
+            <div>
+            <th class="inicio">Início</th></div>
+            <div>
+            <th class="duracao">Duração</th></div>
+            <div>
+            <th class="horario">Horário de aula</th></div>
+            <div>
+            <th class="formato">Formato de aula</th></div>
+            <div>
+            <th class="idioma">Idioma</th></div>
             </tr>
         </thread>
         <tbody>
-            <tr>
+            <tr class="desenvolvedor">
                 <td>Desenvolvedor Java Full Stack</td>
                 <td>Bolsa Integral</td>
                 <td>até 16/01/23</td>
@@ -57,7 +67,7 @@
                 <td>Online e ao vivo</td>
                 <td>Português</td>
             </tr>
-            <tr>
+            <tr class=martech>
                 <td>Martech Academy </td>
                 <td>Bolsa Integral</td>
                 <td>até 16/01/23</td>
@@ -67,7 +77,7 @@
                 <td>Online e ao vivo</td>
                 <td>Português</td>
             </tr>
-            <tr> 
+            <tr class="engenharia"> 
                 <td>Engenharia de Dados</td>
                 <td>Bolsa Integral</td>
                 <td>até 03/10/22</td>
@@ -77,7 +87,7 @@
                 <td>Online e ao vivo</td>
                 <td>Português</td>
             </tr>
-            <tr> 
+            <tr class="sales"> 
                 <td>Desenvolvedor Salesforce</td>
                 <td>Bolsa Integral</td>
                 <td>até 03/10/22</td>
@@ -87,7 +97,7 @@
                 <td>Online e ao vivo</td>
                 <td>Português</td>
             </tr>
-            <tr> 
+            <tr class="service"> 
                 <td>Desenvolvedor ServiceNow</td>
                 <td>Bolsa Integral</td>
                 <td>até 17/10/22</td>
