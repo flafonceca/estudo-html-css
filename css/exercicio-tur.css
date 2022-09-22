@@ -1,0 +1,49 @@
+h1 {
+    background-color: rgb(159, 184, 251);
+}
+
+.habitantes {
+    background-color: rgb(107, 125, 208);
+    border: 2px solid rgb(161, 216, 218);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px
+}
+
+.localizacao {
+    background-color: rgb(107, 125, 208);
+    border: 2px solid rgb(161, 216, 218);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px
+}
+
+.origem {
+    background-color: rgb(107, 125, 208);
+    border: 2px solid rgb(161, 216, 218);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px
+}
+
+.ponto {
+    background-color: rgb(107, 125, 208);
+    border: 2px solid rgb(161, 216, 218);
+    border-radius: 8px;
+    padding: 8px;
+    margin: 5px
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: beige;
+    background-repeat: no-repeat;
+/*background-size: contain - estica;*/
+    background-position: right bottom;
+/*height: 100vh; -- para imagem sair do body*/
+    background-attachment: fixed;
+}  
