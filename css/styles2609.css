@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+}
+
+.box-1 {
+    background-color: cadetblue;
+    align-self: flex-end;
+    order: 1
+}
+
+.box-2 {
+    background-color: chocolate;
+    height: 200px;
+}
+
+.box-3 {
+    background-color: tomato;
+    align-self: flex-start;
+}
+
+.box-4 {
+    background-color: steelblue;
+}
+
+.container-flex {
+    background-color: silver;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    gap: 16px
+}
+
+.box-1, .box-2, .box-3, .box-4 {
+    width: 200px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.box-5 {
+    background-color: brown;
+    flex: 1;
+}
+
+.box-6 {
+    background-color: teal;
+    flex: 3;
+}
+
+.box-7 {
+    background-color: yellow;
+    width: 200px;
+}
+
+.container-flex-2 {
+    display: flex;
+    background-color: orange;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+/*JUSTIFY-CONTENT: alinhamento do eixo principal (hori = row, vert = column)
+space-between - espaço apenas entre cada elemento
+space-around - espaço entre elementos e limites
+space-evenly - espaço entre elementos e limites igual
+center - centraliza o grupo de elementos*/
